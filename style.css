@@ -8,10 +8,9 @@ header{}
   header p{background-color: yellow;}
 main{}
 article#1{}
-  #1{background-color: red;}
-    article#1 h3{font-weight:bold;}
-    article#1 ol{}
-    article#1 li{display:block;height:30px;width:50%;}
+    article#art1 h3{font-weight:bold;}
+    article#art1 ol{}
+    article#art1 li{display:block;height:50px;width:50%;}
         li:first-child{background: url("https://github.com/becodeorg/BXL-Johnson-3.9/blob/master/Projets/progressive-enhancement/bien.png?raw=true") no-repeat right top ;padding-right:35px;}
         li:nth-child(2){background: url("https://github.com/becodeorg/BXL-Johnson-3.9/raw/master/Projets/progressive-enhancement/mal.png") no-repeat right top ;padding-right:35px;}
         li:nth-child(3){background: url("https://github.com/becodeorg/BXL-Johnson-3.9/raw/master/Projets/progressive-enhancement/chat.png") no-repeat right top ;padding-right:35px;}
