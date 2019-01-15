@@ -1,0 +1,14 @@
+*{box-sizing:border-box;}
+body{width:70%;margin-left:15%;}
+article{clear:both;zoom:1;overflow:auto;}
+/*section,aside{float:left;width:50%;}
+section{padding:0 5%;}
+aside{padding-top:5%;}*/
+aside{text-align: center;}
+
+h1,h2,h3,h4{font-weight:normal;}
+h1{font-size:42px;padding-top:16px;colo:rgba(0, 0, 0, 0.84);}
+h3{font-size:38px;text-align:center;}
+p{font-size:21px;line-height:30px}
+  p#when{color:rgba(0, 0, 0, 0.54);}
+  section p::first-letter {font-family:Helvetica;font-size:40px;}
