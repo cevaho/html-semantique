@@ -7,18 +7,24 @@ body{max-width: 90%;margin:auto;
 header{}
   header p{background-color: yellow;}
 main{}
-article#1{}
+article{clear:both;overflow: auto;}
+article#art1{}
     article#art1 h3{font-weight:bold;}
-    article#art1 ol{}
-    article#art1 li{display:block;height:50px;width:50%;}
-        li:first-child{background: url("https://github.com/becodeorg/BXL-Johnson-3.9/blob/master/Projets/progressive-enhancement/bien.png?raw=true") no-repeat right top ;padding-right:35px;}
-        li:nth-child(2){background: url("https://github.com/becodeorg/BXL-Johnson-3.9/raw/master/Projets/progressive-enhancement/mal.png") no-repeat right top ;padding-right:35px;}
-        li:nth-child(3){background: url("https://github.com/becodeorg/BXL-Johnson-3.9/raw/master/Projets/progressive-enhancement/chat.png") no-repeat right top ;padding-right:35px;}
+    article#art1 ol{float:left;}
+    article#art1 li{display:block;height:50px;width:70%;padding-right:50px;}
+        li:first-child{background: url("https://github.com/becodeorg/BXL-Johnson-3.9/blob/master/Projets/progressive-enhancement/bien.png?raw=true") no-repeat right top ;}
+        li:nth-child(2){background: url("https://github.com/becodeorg/BXL-Johnson-3.9/raw/master/Projets/progressive-enhancement/mal.png") no-repeat right top ;}
+        li:nth-child(3){background: url("https://github.com/becodeorg/BXL-Johnson-3.9/raw/master/Projets/progressive-enhancement/chat.png") no-repeat right top ;}
         /*li:last-child{background: url("https://github.com/becodeorg/BXL-Johnson-3.9/raw/master/Projets/progressive-enhancement/chat.png") no-repeat right top ;padding-right:35px;}*/
-article#2{}
-article#3{}
+    article#art1 figure{width:35%;float:left;}
+article#art2{}
+article#art2 p:nth-child(3){width:50%;float:left;margin-right: 10%;}
+article#art2 p:nth-child(5){clear:left;}
+article#art3{}
+  article#art3 figure{width:30%;float:left;}
+  article#art3 section p:nth-child(2){width:50%;margin-top:30px;float:left;}
+  article#art3 section q:nth-child(3){clear:left;}
 section{}
-aside{}
 footer{}
 h1{color:#4A0094;font-size: 2.6em;}
 h2{color:#4A0094;font-size: 2em;}
@@ -26,7 +32,7 @@ h3,h4{color:#390073;font-size: 1.6em;}
 p{color:#190032;font-family: "Times New Roman", Times, serif;font-size: 1.3em;}
 blockquote{width:50%;margin-left: 25%;}
 q{width:50%;margin: 80px 0 80px 25%;font-size: 160%;background-color:#eaeaea;display:block;
-  border-left:3px solid #f14614;padding-left: 30px;font-style: italic;}
+  border-left:3px solid #f14614;padding: 10px 30px;font-style: italic;}
       q::before,q::after{display:none;}
       q.villageois{border-color:#8417b1;}
       q.fermier{border-color:#f526d9;}
