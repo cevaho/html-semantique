@@ -4,6 +4,7 @@
 ------
 
 - par __Cédric Van Hove__
+- janvier 2019 @ __BeCode__
 
 ------
 
@@ -22,3 +23,11 @@ L'affichage n'est vraiment conçu que pour desktop bien que la mise en page simp
 - [index](https://cevaho.github.io/html-semantique/) au sujet du bien et du mal
 - [essai2](https://cevaho.github.io/html-semantique/essai2.html) au sujet du design des blocs textes.
 - [essai3](https://cevaho.github.io/html-semantique/essai3.html) au sujet du choix des polices et des leur utilisations.
+
+------
+
+### Sources :
+
+- En dehors des fichiers html, css et du readme, une favicon a été créée,
+- On peut aussi lire le rapport de performance tiré de Lighthouse pour la page [index](https://cevaho.github.io/html-semantique/)
+- normalise.css a été choisi pour mettre à niveau le design sur différents navigateurs. Ne supprimant pas tous les styles comme l'aurait fait le reset.css d'Eric Meyer.
