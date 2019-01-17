@@ -44,3 +44,4 @@ a:visited,a:active{color:pink;}
 .mal{/*color:#922B44;*/color:red;text-transform: uppercase;}
 table tr:nth-child(even) td{background-color:white;}
 table tr:nth-child(odd) td{background-color:#efecef;}
+footer small{font-size:1em;}
