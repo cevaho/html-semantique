@@ -1,15 +1,28 @@
+
+/*$flexer:flex;*/
+header nav ul,#sponsors .imager,#sponsors ul, footer nav ul{display: -webkit-flex; display:flex;}
+header nav li,#sponsors .imager img,#sponsors li, footer nav li{flex:auto;}
+#start,.whiter,.linker a{text-align:center;}
+header a,#start h1,#start a,#advantages article,.linker a,footer a{color:white;}
 *{box-sizing:border-box;}
+
 body{background-color: rgba(30,147,204,255);}
 header{background-color:rgba(51,51,51,255);height:60px;font-size:16px;}
-header nav a{color:white;}
+h2{line-height:70px;}
 nav ul{margin: 0px;}
 li{list-style: none;}
 a{text-decoration: none;}
 #start{}
-.whiter{height:70px;text-align:center;background-color: white;}
+#start p a{display:block;width:345px;padding:25px 0;margin: auto;}
+.whiter{height:70px;background-color: white;}
+#advantages{display:grid;grid-template-columns: auto auto;}
+#advantages article{}
+.linker{background-color: white;margin:80px auto 170px;}
+.linker ul{margin: 0;}
+.linker a{background-color:  rgba(22,88,130,255);padding:28px 0;width:265px;display:block;}
+.linker li:last-child a,#start p a{background-color:  rgba(233,144,2,255);}
+#sponsors{background-color:white;zoom:1;overflow: auto;}
 #sponsors .whiter h4{line-height:70px;margin:0px;color: rgba(116,111,112,255);}
-#sponsors .imager{background-color: rgba(238,238,238,255);display: -webkit-flex; /* Safari */
-  display: flex;}
+#sponsors .imager{background-color: rgba(238,238,238,255);}
 #sponsors .imager img{flex:auto;}
 footer{background-color:rgba(51,51,51,255);}
-footer a{color:white;}
