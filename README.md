@@ -23,6 +23,7 @@ L'affichage n'est vraiment conçu que pour desktop bien que la mise en page simp
 - [index](https://cevaho.github.io/html-semantique/) au sujet du bien et du mal
 - [essai2](https://cevaho.github.io/html-semantique/essai2.html) au sujet du design des blocs textes.
 - [essai3](https://cevaho.github.io/html-semantique/essai3.html) au sujet du choix des polices et des leur utilisations.
+- [turlututu](https://cevaho.github.io/html-semantique/turlututu.html) début de mise en page du bonus avec flexbox.
 
 ------
 
